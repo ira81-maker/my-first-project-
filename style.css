@@ -1,0 +1,49 @@
+*{
+	box-sizing: border-box
+}
+
+#container-all{ 
+	display: flex;
+    justify-content: center;
+	background-color: lightgoldenrodyellow;
+}
+
+.recept{
+	box-shadow: 5px 10px #888888;
+/*	box-shadow: 24px 17px 19px 0px rgba(218,221,230,1);*/
+	width: 30%;
+	display: inline-grid;
+	border: 2px solid grey;
+	border-radius: 20px;
+	padding: 20px;
+	margin: 20px;
+	background-color: goldenrod;
+}
+
+
+img{
+	border-radius: 10px;
+	width: 60%;
+}
+
+h2{
+	font-family: verdana;
+	font-style: 200;
+	color: gainsboro;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+h3{
+	font-family: sans-serif;
+	color: blanchedalmond;
+	text-decoration: underline;
+}
+
+p{
+	font-style: italic;
+	font-family: verdana;
+}
+
+ul li{
+	font-family: verdana;
+}
